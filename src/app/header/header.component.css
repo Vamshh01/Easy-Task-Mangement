@@ -1,0 +1,36 @@
+header {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,
+            #2c0a4c,
+            #450d80);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+    padding: 0.4rem;
+    margin: 0 auto 2rem auto;
+    align-items: center;
+    gap: 0.6rem;
+
+
+
+
+    img {
+        height: 6rem;
+        object-fit: contain;
+    }
+
+    p {
+        margin: 0;
+        font-size: 1.2rem;
+        text-wrap: balance;
+        margin-top: 0.2rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        text-align: center;
+        padding: 0;
+    }
+}

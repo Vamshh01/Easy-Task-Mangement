@@ -1,0 +1,37 @@
+button {
+    display: flex;
+    align-items: center;
+
+    padding: 0.35rem 0.6rem;
+    background-color: #433352;
+    color: #c3b3d1;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    width: 100%;
+    min-width: 10rem;
+    text-align: left;
+}
+
+button:hover,
+button:active,
+.active {
+    background-color: #9965dd;
+    color: #150722;
+}
+
+img {
+    width: 2.5rem;
+    object-fit: contain;
+    border-radius: 50%;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+span {
+    margin-left: 0.7rem;
+
+    font-size: 1rem;
+    font-weight: normal;
+    white-space: nowrap;
+
+}
